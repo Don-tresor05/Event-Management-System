@@ -1,0 +1,94 @@
+﻿@page
+@model EventEase.Pages.SignupModel
+@{
+    ViewData["Title"] = "EventEase | Signup";
+}
+
+<style>
+    body {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .login-container {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .login-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+    }
+
+    .login-btn {
+        background-color: #0d6efd;
+        color: white;
+        width: 100%;
+    }
+
+        .login-btn:hover {
+            background-color: #0a58ca;
+        }
+
+    .form-control {
+        border-radius: 5px;
+    }
+
+    .login-image {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .forgot-password {
+        color: #0d6efd;
+        text-decoration: none;
+    }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container login-container">
+    <div class="row align-items-center">
+        <!-- Left Side: Image -->
+        <div class="col-md-6 text-center d-none d-md-block">
+            <img src="~/images/undraw_sign-up_z2ku.svg" alt="Signup Image" class="login-image">
+        </div>
+
+        <!-- Right Side: Signup Form -->
+        <div class="col-md-6">
+            <div class="login-card">
+                <h2 class="text-center fw-bold mb-4">Hi There Signup Here</h2>
+                <form method="post">
+                    <div class="mb-3">
+                        <label class="form-label">Full Names</label>
+                        <input type="text" class="form-control" placeholder="Enter your Full Names" asp-for="Input.FullName">
+                        <span asp-validation-for="Input.FullName" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control" placeholder="Enter your email" asp-for="Input.Email">
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password" asp-for="Input.Password">
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn login-btn mt-3">Signup</button>
+                </form>
+                <p class="text-center mt-3">Already have an account? <a asp-page="/Login" class="forgot-password">Login</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

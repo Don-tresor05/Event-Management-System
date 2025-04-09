@@ -1,0 +1,7 @@
+D:\Semesters\7th Sem\.NET\C# Projects\Event-MGT\Event-MGT\obj\Debug\net8.0\PubTmp\Out\Event-MGT.exe
+D:\Semesters\7th Sem\.NET\C# Projects\Event-MGT\Event-MGT\obj\Debug\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Semesters\7th Sem\.NET\C# Projects\Event-MGT\Event-MGT\obj\Debug\net8.0\PubTmp\Out\appsettings.json
+D:\Semesters\7th Sem\.NET\C# Projects\Event-MGT\Event-MGT\obj\Debug\net8.0\PubTmp\Out\Event-MGT.dll
+D:\Semesters\7th Sem\.NET\C# Projects\Event-MGT\Event-MGT\obj\Debug\net8.0\PubTmp\Out\Event-MGT.deps.json
+D:\Semesters\7th Sem\.NET\C# Projects\Event-MGT\Event-MGT\obj\Debug\net8.0\PubTmp\Out\Event-MGT.runtimeconfig.json
+D:\Semesters\7th Sem\.NET\C# Projects\Event-MGT\Event-MGT\obj\Debug\net8.0\PubTmp\Out\Event-MGT.pdb
